@@ -20,7 +20,6 @@
 import sys
 from functools import wraps
 
-
 def type_logger(callback):
     @wraps(callback)
     def wrapper(*args):
